@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-form-html5</title>
+</head>
+
+<body>
+    <h1>Training Field Registration</h1>
+    <form 
+        action="https://formspree.io/f/xbjvgokv"
+        method="POST"
+    >
+        
+        <div>
+            <label>First Name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="John"><br>
+        </div>
+        <br>
+        <div>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Smith"><br>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="email@email.com"><br>
+        </div>
+        <br>
+        <div>
+            
+            <label for="telephone">Telephone:</label><br>
+            <input type="tel" id="telephone" name="telephone" placeholder="+(48) 879 372 482"><br>
+        </div>
+        <br>
+        <div> City Selection:
+            <br>
+            <label>Kraków</label>
+            <input type="radio" name="city">
+            <br>
+            <label>Warsaw</label>
+            <input type="radio" name="city">
+            <br>
+            <label>Gdańsk</label>
+            <input type="radio" name="city">
+            <br>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" id="consent" name="consent">
+            <label for="consent">Consent to personal data</label><br>
+        </div>
+        <br>
+        <div>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="8" cols="50"></textarea>
+        </div>
+
+
+    </form>
+</body>
+
+</html>
